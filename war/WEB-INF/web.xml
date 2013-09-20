@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+	<!--  Web Application endpoints we want -->
+	<servlet>
+		<servlet-name>TestForm</servlet-name>
+		<servlet-class>com.mambothief.pastryblog.TestForm</servlet-class>
+	</servlet>
+
+
+	<!-- Homework solution servlets -->
+	<servlet>
+		<servlet-name>Rot13HWK</servlet-name>
+		<servlet-class>com.mambothief.pastryblog.homework.Rot13Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UserForm</servlet-name>
+		<servlet-class>com.mambothief.pastryblog.homework.UserFormServlet</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>TestForm</servlet-name>
+		<url-pattern>/testform</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserForm</servlet-name>
+		<url-pattern>/userform</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Rot13HWK</servlet-name>
+		<url-pattern>/rot13</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>birth.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
