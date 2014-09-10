@@ -18,8 +18,6 @@
 		<h1>Welcome to the site, <%= request.getParameter("name") %></h1>
 	</body>
 	<p>Curious about Udacity classes?  Check out the one for this class:
-		<a href="//www.udacity.com/course/cs253">Web Development</a></p>
-	<p>Or if you don't mind toying with some bonus Google Analytics tagging:
-		<a href="//www.udacity.com/course/cs253?utm_medium=referral&utm_campaign=api">
-			Web Development (GA)</a></p>
+		<a href="//www.udacity.com/course/cs253">Web Development</a>
+	</p>
 </html>
