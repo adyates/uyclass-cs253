@@ -17,4 +17,7 @@
 	<body>
 		<h1>Welcome to the site, <%= request.getParameter("name") %></h1>
 	</body>
+	<p>Curious about Udacity classes?  Check out the one for this class:
+		<a href="//www.udacity.com/course/cs253">Web Development</a>
+	</p>
 </html>

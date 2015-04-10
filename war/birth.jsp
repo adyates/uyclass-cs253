@@ -9,6 +9,10 @@
   </head>
 
   <body>
+	<p>Curious about Udacity classes?  Check out the one for this class:
+		<a href="//www.udacity.com/course/cs253">Web Development</a>
+	</p>
+			
 	<form method="post">
 		What is your birthday?
 		<br>
